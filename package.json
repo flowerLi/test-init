@@ -1,6 +1,6 @@
 {
   "name": "test-init-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "搭建脚手架",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/flowerLi/test-init#readme",
   "bin": {
-    "demo-cli": "index"
+    "demo-cli": "index.js"
+  },
+  "dependencies": {
+    "registry": "^0.3.0"
   }
 }
